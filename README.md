@@ -1,6 +1,6 @@
 # Clojure
 
-This is a Clojure engine used to launch Clojure apps on [Nanobox](http://nanobox.io).
+This is a Clojure engine used to launch Clojure apps on [Microbox](http://microbox.cloud).
 
 ## Usage
 To use the Clojure engine, specify `clojure` as your `engine` in your boxfile.yml.
@@ -20,7 +20,7 @@ When [running a build](https://docs.nanboox.io/cli/build/), this engine compiles
 
 ## Basic Configuration Options
 
-This engine exposes configuration options through the [boxfile.yml](http://docs.nanobox.io/app-config/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox.
+This engine exposes configuration options through the [boxfile.yml](https://docs.microbox.cloud/app-config/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Microbox.
 
 #### Overview of Basic Boxfile Configuration Options
 ```yaml
@@ -34,7 +34,7 @@ run.config:
 ```
 
 ##### Quick Links
-[Java Settings](#java-settings)  
+[Java Settings](#java-settings)
 [Node.js Settings](#nodejs-settings)
 
 ---
@@ -68,7 +68,7 @@ Many applications utilize Javascript tools in some way. This engine allows you t
 ---
 
 #### nodejs_runtime
-Specifies which Node.js runtime and version to use. You can view the available Node.js runtimes in the [Node.js engine documentation](https://github.com/nanobox-io/nanobox-engine-nodejs#runtime).
+Specifies which Node.js runtime and version to use. You can view the available Node.js runtimes in the [Node.js engine documentation](https://github.com/mu-box/microbox-engine-nodejs#runtime).
 
 ```yaml
 run.config:
@@ -79,4 +79,4 @@ run.config:
 ---
 
 ## Help & Support
-This is a Clojure engine provided by [Nanobox](http://nanobox.io). If you need help with this engine, you can reach out to us in the [#nanobox IRC channel](http://webchat.freenode.net/?channels=nanobox). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/nanobox-io/nanobox-engine-clojure/issues/new).
+This is a Clojure engine provided by [Microbox](http://microbox.cloud). If you need help with this engine, you can reach out to us in the [Microbox Discord](https://discord.gg/MCDdHfy). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/mu-box/microbox-engine-clojure/issues/new).
